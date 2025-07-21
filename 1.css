@@ -1,0 +1,49 @@
+/* Detail Buku */
+.detail-container {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.detail-card {
+    background-color: #fff;
+    max-width: 650px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.detail-card h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #4CAF50;
+}
+
+.detail-card p {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+.sinopsis p {
+    text-align: justify;
+    line-height: 1.6;
+    margin-top: 5px;
+    font-style: normal;
+}
+
+/* Tombol kembali */
+.back-button {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #388e3c;
+}
